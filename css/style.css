@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Mooli&family=PT+Sans:wght@400;700&family=Roboto:wght@300;400&family=Signika+Negative:wght@600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,12 @@
 
 body {
     background-color: beige;
+    font-family: 'PT Sans', sans-serif;
 }
+
+
+
+  /* **********HEADER TOP STYLE START********** */
 
 .header-nav {
     background-color: rgb(60, 59, 59);
@@ -34,3 +41,139 @@ body {
 .social-link-item a i {
     color: white;
 }
+
+/* **********HEADER TOP STYLE END********** */
+
+
+
+/* ********** HEADER TOP STYLE START ********** */
+
+.header-bottom {
+    background: url("/Images/bg/bg-7.jpg");
+    background-size: cover;
+}
+
+.header-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.header-bottom-left {
+    width: 30vw;
+    height: 100px;
+    padding: 1rem;
+}
+
+.header-bottom-left img {
+    height: 100%;
+}
+
+
+.nav-list {
+    display: flex;
+}
+
+.list-item {
+    list-style: none;
+    padding: 1rem;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+.header-bottom-right {
+    position: relative;
+}
+
+.header-bottom-right {}
+
+
+.header-bottom-right form input {
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+
+.search-btn {}
+
+.header-bottom-bottom {
+    padding: 5rem 20rem 5rem 10rem;
+}
+
+.header-bottom-bottom h2 {
+    margin-top: 5rem;
+}
+
+.header-bottom-bottom h2 span {
+    padding: 0.6rem 3rem;
+    background-color: rgb(42, 128, 128);
+    color: white;
+    border-radius: 2rem;
+}
+
+.header-bottom-bottom h1 {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+}
+
+.header-bottom-bottom p {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1rem;
+    background-color: rgb(42, 128, 128);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin: 2rem 0.4rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* ********** HEADER TOP STYLE END ********** */
+
+
+
+
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
+/* ********** ********** */
