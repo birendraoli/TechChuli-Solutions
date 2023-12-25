@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+.header-nav {
+    background-color: rgb(60, 59, 59);
+    color: white;
+}
+
+.header-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.header-nav-right, .header-nav-left {}
+
+.contact-lists, .social-links {
+    display: flex;
+}
+
+.contact-lists li, .social-links li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.social-link-item a i {
+    color: white;
+}
