@@ -51,33 +51,35 @@
           </div>
         </div>
       </nav>
-      <div class="header-bottom">
-        <div class="header-bottom-container">
-          <div class="header-bottom-left">
+    </header>
+
+    <nav id="navbar">
+        <div class="primary-nav">
+          <div class="primary-nav-left">
             <img src="/Images/logo/logo.png" alt="" class="logo" />
           </div>
-          <div class="header-bottom-middle">
-            <nav class="primary-nav">
+          <div class="primary-nav-middle">
+            <nav class="nav-menu">
               <ul class="nav-list">
                 <li class="list-item">
-                  <a href="#">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li class="list-item">
-                  <a href="#">About Us</a>
+                  <a href="#about">About Us</a>
                 </li>
                 <li class="list-item">
-                  <a href="#">Services</a>
+                  <a href="#services">Services</a>
                 </li>
                 <li class="list-item">
-                  <a href="#">Our Works</a>
+                  <a href="#whyus">Why Us</a>
                 </li>
                 <li class="list-item">
-                  <a href="#">Contact Us</a>
+                  <a href="#ourworks">Our Works</a>
                 </li>
               </ul>
             </nav>
           </div>
-          <div class="header-bottom-right">
+          <div class="primary-nav-right">
             <form action="">
               <input type="text" placeholder="search" />
               <button class="search-btn">
@@ -86,7 +88,11 @@
             </form>
           </div>
         </div>
-        <div class="header-bottom-bottom">
+      </nav>
+
+    <main class="main-section">
+      <section id="home">
+        <div class="home-container">
           <h2 class="catagory-btn"><span>SECURE AND GUARANTEED</span></h2>
           <h1>We Provide The Best Cyber Security Entire World</h1>
           <p>
@@ -97,11 +103,8 @@
           <button>Get Start Now</button>
           <button>Get a Free Quote</button>
         </div>
-      </div>
-    </header>
-
-    <main class="main-section">
-      <section class="about">
+      </section>
+      <section class="about" id="about">
         <div>
           <h2 class="catagory-btn"><span>About Us</span></h2>
         </div>
@@ -150,7 +153,7 @@
       </section>
 
       <!-- ********** Services Section Start ********** -->
-      <section class="services-section">
+      <section class="services-section" id="services">
         <div class="services">
           <div class="service-header">
             <h2 class="catagory-btn"><span>Our Services</span></h2>
@@ -252,80 +255,110 @@
 
       <!-- ********** Services Section End ********** -->
 
-
       <!-- ********** Why Choose Section Start ********** -->
 
-      <section class="why-us-section">
+      <section class="why-us-section" id="whyus">
         <div class="why-us-container">
-            <div class="why-us-left">
-                <h2 class="catagory-btn"><span>Why Choose Us</span></h2>
-                <h1>We are your trusted parter in Cyber security and IT sector</h1>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cuptat non proident, sunt in culpa qui fficia deserunt mollit anim id est laborum perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                <ul>
-                    <li>
-                        <p><i class="fa-solid fa-square-check"></i> Duis aute irure dolor in reprehenderit.</p>
-                    </li>
-                    <li>
-                        <p><i class="fa-solid fa-square-check"></i> In voluptate velit esse cillum.</p>
-                    </li>
-                    <li>
-                        <p><i class="fa-solid fa-square-check"></i> Dolore eu fugiat nulla and pariatur.</p>
-                    </li>
-                    <li>
-                        <p><i class="fa-solid fa-square-check"></i> Excepteur sint occaecat cupidatat non proident.</p>
-                    </li>
-                </ul>
-                <button>Get The Service</button>
-            </div>
-            <div class="why-us-right">
-                <img src="/Images/bg/why-us-1.jpg" alt="">
-            </div>
+          <div class="why-us-left">
+            <h2 class="catagory-btn"><span>Why Choose Us</span></h2>
+            <h1>We are your trusted parter in Cyber security and IT sector</h1>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cuptat
+              non proident, sunt in culpa qui fficia deserunt mollit anim id est
+              laborum perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium.
+            </p>
+            <ul>
+              <li>
+                <p>
+                  <i class="fa-solid fa-square-check"></i> Duis aute irure dolor
+                  in reprehenderit.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <i class="fa-solid fa-square-check"></i> In voluptate velit
+                  esse cillum.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <i class="fa-solid fa-square-check"></i> Dolore eu fugiat
+                  nulla and pariatur.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <i class="fa-solid fa-square-check"></i> Excepteur sint
+                  occaecat cupidatat non proident.
+                </p>
+              </li>
+            </ul>
+            <button>Get The Service</button>
+          </div>
+          <div class="why-us-right">
+            <img src="/Images/bg/why-us-1.jpg" alt="" />
+          </div>
         </div>
       </section>
 
       <!-- ********** Why Choose Section End ********** -->
 
-
       <!-- ********** Our Work Section Start ********** -->
 
-      <section class="work-section">
+      <section class="work-section" id="ourworks">
         <div class="work-container">
-            <div class="work-summary">
-                <h2 class="catagory-btn"><span>Our Work</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tempore voluptatibus ipsum odio cum aspernatur rem eos dicta, commodi eaque perferendis illum qui sint, aliquid odit fuga? Cumque vitae vero dolores perferendis et aut porro.</p>
+          <div class="work-summary">
+            <h2 class="catagory-btn"><span>Our Work</span></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              tempore voluptatibus ipsum odio cum aspernatur rem eos dicta,
+              commodi eaque perferendis illum qui sint, aliquid odit fuga?
+              Cumque vitae vero dolores perferendis et aut porro.
+            </p>
+          </div>
+          <div class="work-cards">
+            <div class="work-card">
+              <img src="/Images/bg/work-1.jpg" alt="" />
+              <h2>Digital Marketing</h2>
+              <p>
+                Reach your target audience effectively with our digital
+                marketing strategies, including social media marketing,
+                pay-per-click…...
+              </p>
+              <h4>
+                Read More
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+              </h4>
             </div>
-            <div class="work-cards">
-                <div class="work-card">
-                    <img src="/Images/bg/work-1.jpg" alt="">
-                    <h2>Digital Marketing</h2>
-                    <p>Reach your target audience effectively with our digital marketing strategies, including social media marketing, pay-per-click…...
-                    </p>
-                    <h4>
-                        Read More
-                        <span><i class="fa-solid fa-chevron-right"></i></span>
-                    </h4>
-                </div>
-                <div class="work-card">
-                    <img src="/Images/bg/work-2.jpg" alt="">
-                    <h2>Website Hosting</h2>
-                    <p>Reach your target audience effectively with our digital marketing strategies, including social media marketing, pay-per-click…...
-                    </p>
-                    <h4>
-                        Read More
-                        <span><i class="fa-solid fa-chevron-right"></i></span>
-                    </h4>
-                </div>
-                <div class="work-card">
-                    <img src="/Images/bg/work-3.jpg" alt="">
-                    <h2>Digital Marketing</h2>
-                    <p>Reach your target audience effectively with our digital marketing strategies, including social media marketing, pay-per-click…...
-                    </p>
-                    <h4>
-                        Read More
-                        <span><i class="fa-solid fa-chevron-right"></i></span>
-                    </h4>
-                </div>
-                <!-- <div class="work-card">
+            <div class="work-card">
+              <img src="/Images/bg/work-2.jpg" alt="" />
+              <h2>Website Hosting</h2>
+              <p>
+                Reach your target audience effectively with our digital
+                marketing strategies, including social media marketing,
+                pay-per-click…...
+              </p>
+              <h4>
+                Read More
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+              </h4>
+            </div>
+            <div class="work-card">
+              <img src="/Images/bg/work-3.jpg" alt="" />
+              <h2>Digital Marketing</h2>
+              <p>
+                Reach your target audience effectively with our digital
+                marketing strategies, including social media marketing,
+                pay-per-click…...
+              </p>
+              <h4>
+                Read More
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+              </h4>
+            </div>
+            <!-- <div class="work-card">
                     <img src="/Images/bg/work-4.jpg" alt="">
                     <h2>Search Engine Optimization</h2>
                     <p>Reach your target audience effectively with our digital marketing strategies,, pay-per-click…...
@@ -335,17 +368,19 @@
                         <span><i class="fa-solid fa-chevron-right"></i></span>
                     </h4>
                 </div> -->
-            </div>
-            <div class="work-get-start">
-                <h2>Are You Ready for the Best Cyber Security Experience?</h2>
-                <p>We’re confident you’ll be 100% satisfied With Our Awesome Services!</p>
-                <button><span>Get Started</span></button>
-            </div>
+          </div>
+          <div class="work-get-start">
+            <h2>Are You Ready for the Best Cyber Security Experience?</h2>
+            <p>
+              We’re confident you’ll be 100% satisfied With Our Awesome
+              Services!
+            </p>
+            <button><span>Get Started</span></button>
+          </div>
         </div>
       </section>
 
       <!-- ********** Our Work Section End ********** -->
-
 
       <!-- **********  Section ********** -->
       <!-- **********  Section ********** -->
