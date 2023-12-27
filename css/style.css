@@ -13,6 +13,8 @@ html {
 body {
     /* background-color: beige; */
     font-family: 'PT Sans', sans-serif;
+    width: 75vw;
+    margin: auto;
 }
 
 
@@ -30,8 +32,6 @@ body {
     align-items: center;
     padding: 0 1rem;
 }
-
-.header-nav-right, .header-nav-left {}
 
 .contact-lists, .social-links {
     display: flex;
@@ -97,8 +97,6 @@ body {
     position: relative;
 }
 
-.primary-nav-right {}
-
 
 .primary-nav-right form input {
     padding: 0.8rem;
@@ -108,7 +106,25 @@ body {
     display: none;
 }
 
-.search-btn {}
+.mobile-nav {
+    /* display: none; */
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+.mobile-nav .logo {
+    height: 40px;
+}
+
+.mobile-nav .logo img {
+    height: 100%;
+}
+
+.menu-icon {
+    font-size: 2rem;
+}
 
 .catagory-btn span {
     padding: 0.6rem 3rem;
@@ -131,19 +147,15 @@ button {
 
 
 /* ********** Main Section Start ********** */
-/* ********** About Section Start ********** */
 
+/* ********** Home Section Start ********** */
 #home {
     background: url("/Images/bg/bg-7.jpg");
     background-size: cover;
 }
 
 .home-container {
-    padding: 5rem 30rem 5rem 10rem;
-}
-
-.home-container h2 {
-    margin-top: 5rem;
+    padding: 10rem 25rem 5rem 10rem;
 }
 
 .home-container h1 {
@@ -156,11 +168,14 @@ button {
     font-size: 1.2rem;
     font-weight: bold;
 }
+/* ********** Home Section End ********** */
 
+
+/* ********** About Section Start ********** */
 .about {
     background-color: black;
     color: white;
-    padding: 12rem 10rem 5rem;
+    padding: 10rem 10rem 5rem;
 }
 
 .about h2 {
@@ -174,7 +189,7 @@ button {
 }
 
 .about-left {
-    width: 50vw;
+    width: 50%;
     margin-right: 1rem;
 }
 
@@ -183,7 +198,7 @@ button {
 }
 
 .about-right {
-    width: 50vw;
+    width: 50%;
     margin-left: 1rem;
 }
 
@@ -235,6 +250,7 @@ button {
     justify-content: space-around;
     align-items: center;
     margin-left: 1rem;
+    text-align: center;
 }
 
 .more-calc > div {
@@ -273,7 +289,7 @@ button {
 .services-section {
     background-color: white;
     color: black;
-    padding: 10rem 10rem 2rem 10rem;
+    padding: 10rem 9rem 5rem;
 }
 
 .service-header h2, h3 {
@@ -292,11 +308,11 @@ button {
 }
 
 .card {
-    margin: 0.5rem;
+    margin: 1rem;
     padding: 2rem 3rem;
     /* background-color: grey; */
     border-radius: 0.8rem;
-    height: 300px;
+    height: 310px;
     border: 1px solid #85399c;
     box-shadow: 5px 10px #85399c;
 }
@@ -324,23 +340,21 @@ button {
     text-align: center;
     margin-top: 2rem;
 }
-
 /* ********** Services Section End ********** */
 
 
 
 /* ********** Why Choose Section Start ********** */
-
 .why-us-section {
     background-color: black;
     color: #FFF;
+    padding: 10rem 10rem 5rem;
 }
 
 .why-us-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12rem 10rem 5rem;
 }
 
 .why-us-left {
@@ -372,16 +386,14 @@ button {
 .why-us-right img {
     width: 100%;
 }
-
 /* ********** Why Us Section End ********** */
 
+
+/* ********** Our Work Section Start ********** */
 .work-section {
     background-color: white;
     color: black;
-}
-
-.work-container {
-    padding: 12rem 10rem 5rem;
+    padding: 10rem 10rem 5rem;
 }
 
 .work-summary p {
@@ -401,13 +413,11 @@ button {
 }
 
 .work-card {
-    /* border: 1px solid #888888; */
     box-shadow: 5px 10px #85399c;
     width: 33.33%;
     padding: 0.7rem 1rem 1rem 0.3rem;
     height: 400px;
     border-radius: 0.5rem;
-    /* text-align: center; */
 }
 
 .work-card img {
@@ -433,14 +443,14 @@ button {
 .work-get-start p {
     font-size: 1.2rem;
 }
-
-/* ********** Our Work Section Start ********** */
-
 /* ********** Our Work Section End ********** */
 
 
 
+
 /* ********** ********** */
+
+
 /* ********** ********** */
 
 

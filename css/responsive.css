@@ -1,0 +1,292 @@
+@media screen and (max-width: 1700px) {
+    body {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    body {
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    body {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    body {
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 1142px) {
+    .home-container {
+        padding: 10rem 15rem 5rem 6rem;
+    }
+    .about {
+        padding: 10rem 6rem 5rem;
+    }
+    .services-section {
+        padding: 10rem 5rem 5rem;
+    }
+    .why-us-section {
+        padding: 10rem 6rem 5rem;
+    }
+    .work-section {
+        padding: 10rem 6rem 5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .catagory-btn span {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 0.9rem;
+        background-color: #2596be;
+        color: white;
+        padding: 0.6rem 1rem;
+        margin: 2rem 0.4rem;
+        border: none;
+        border-radius: 0.5rem;
+    }
+
+    .header-nav-container {
+        height: 35px;
+    }
+    .primary-nav {
+        height: 80px;
+    }
+    .list-item a{
+        font-size: 1rem;
+    }
+
+    .home-container {
+        padding: 8rem 15rem 4rem 5rem;
+    }
+    .home-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .about {
+        padding: 8rem 5rem 4rem;
+    }
+    .about-container {
+        padding: 4rem 0 1rem;
+    }
+    .about-right h1 {
+        font-size: 2rem;
+    }
+    .about-right p {
+        font-size: 1rem;
+    }
+    .exp {
+        padding: 0.5rem;
+    }
+    .exp-count h1 {
+        font-size: 3rem;
+        padding: 1.5rem 2rem;
+    }
+    .exp-text p {
+        font-size: 1.5rem;
+        padding: 1rem 2rem 1rem 0;
+    }
+    .project-count > h2  {
+        font-size: 2rem;
+    }
+    .project-count > p {
+        font-size: 1.2rem;
+    }
+    .expert-count > h2 {
+        font-size: 2rem;
+    }
+    
+    .expert-count > p {
+        font-size: 1.2rem;
+    }
+    
+    .client-rate > h2 {
+        font-size: 2rem;
+    }
+    
+    .client-rate > p {
+        font-size: 1.2rem;
+    }
+
+    .services-section {
+        padding: 8rem 4rem 4rem;
+    }
+    .card {
+        padding: 1.5rem 2rem;
+    }
+
+    .why-us-section {
+        padding: 8rem 5rem 4rem;
+    }
+    .work-section {
+        padding: 8rem 5rem 4rem;
+    }
+}
+
+
+
+@media screen and (max-width: 898px) {
+    .catagory-btn span {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+        margin: 2rem 0.4rem;
+    }
+    .time {
+        display: none;
+    }
+
+    .header-nav-container {
+        height: 35px;
+    }
+
+    .primary-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+    .list-item a{
+        font-size: 1rem;
+    }
+
+    .home-container {
+        padding: 4rem 15rem 4rem 1rem;
+    }
+    .home-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .about {
+        padding: 4rem 1rem 4rem;
+    }
+
+    .services-section {
+        padding: 4rem 0.5rem 4rem;
+    }
+    .card {
+        padding: 1.5rem 2rem;
+        margin: 0.5rem;
+    }
+
+    .why-us-section {
+        padding: 4rem 1rem 4rem;
+    }
+    .why-us-left {
+        padding-right: 1rem;
+    }
+    
+    .why-us-left h1 {
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+    
+    .why-us-left > p {
+        padding-bottom: 1rem;
+    }
+    
+    .why-us-left ul li {
+        padding-bottom: 0.7rem;
+        font-size: 1rem;
+    }
+
+    .work-section {
+        padding: 4rem 1rem 4rem;
+    }
+    .work-get-start {
+        padding: 5rem 5rem 0;
+    }
+    
+    .work-get-start h2 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    header {
+        display: none;
+    }
+    .catagory-btn span {
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+    }
+    button {
+        font-size: 0.5rem;
+        font-weight: bold;
+        padding: 0.3rem 0.5rem;
+        margin: 1rem 0.4rem;
+        border-radius: 4px;
+    }
+
+    .home-container {
+        padding: 1rem 5rem 1rem 0.5rem;
+    }
+    .home-container h1 {
+        font-size: 1.5rem;
+    }
+    .home-container p {
+        font-size: 1rem;
+    }
+
+    .about {
+        padding: 4rem 1rem 4rem;
+    }
+
+    .services-section {
+        padding: 4rem 0.5rem 4rem;
+    }
+    .card {
+        padding: 1.5rem 2rem;
+        margin: 0.5rem;
+    }
+
+    .why-us-section {
+        padding: 4rem 1rem 4rem;
+    }
+    .why-us-left {
+        padding-right: 1rem;
+    }
+    
+    .why-us-left h1 {
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+    
+    .why-us-left > p {
+        padding-bottom: 1rem;
+    }
+    
+    .why-us-left ul li {
+        padding-bottom: 0.7rem;
+        font-size: 1rem;
+    }
+
+    .work-section {
+        padding: 4rem 1rem 4rem;
+    }
+    .work-get-start {
+        padding: 5rem 5rem 0;
+    }
+    
+    .work-get-start h2 {
+        font-size: 2.5rem;
+    }
+}
