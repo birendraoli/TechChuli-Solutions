@@ -219,8 +219,92 @@
     }
 }
 
-
 @media screen and (max-width: 767px) {
+    .catagory-btn span {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+        margin: 2rem 0.4rem;
+    }
+    .time {
+        display: none;
+    }
+
+    .header-nav-container {
+        height: 35px;
+    }
+
+    .primary-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+    .list-item a{
+        font-size: 1rem;
+    }
+
+    .home-container {
+        padding: 4rem 15rem 4rem 1rem;
+    }
+    .home-container h1 {
+        font-size: 2rem;
+    }
+    .home-container p {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    .about {
+        padding: 4rem 1rem 4rem;
+    }
+
+    .services-section {
+        padding: 4rem 0.5rem 4rem;
+    }
+    .card {
+        padding: 1.5rem 2rem;
+        margin: 0.5rem;
+    }
+
+    .why-us-section {
+        padding: 4rem 1rem 4rem;
+    }
+    .why-us-left {
+        padding-right: 1rem;
+    }
+    
+    .why-us-left h1 {
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+    
+    .why-us-left > p {
+        padding-bottom: 1rem;
+    }
+    
+    .why-us-left ul li {
+        padding-bottom: 0.7rem;
+        font-size: 1rem;
+    }
+
+    .work-section {
+        padding: 4rem 1rem 4rem;
+    }
+    .work-get-start {
+        padding: 5rem 5rem 0;
+    }
+    
+    .work-get-start h2 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width: 415px) {
     header {
         display: none;
     }
@@ -342,6 +426,7 @@
     .work-card {
         width: 100%;
         margin-bottom: 1rem;
+        height: 420px;
     }
     .work-get-start {
         padding: 5rem 5rem 0;
